@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini App</title>
+    <title>Гороскоп Mini App</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,11 +14,35 @@
         h1 {
             color: #333;
         }
+        select {
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            color: #764848;
+        }
     </style>
 </head>
 <body>
-    <h1>Привет, это Mini App!</h1>
-    <p id="output"></p>
+    <h1>Гороскоп на сегодня</h1>
+    <label for="zodiac-sign">Выберите знак зодиака:</label>
+    <select id="zodiac-sign">
+        <option value="aries">Овен</option>
+        <option value="taurus">Телец</option>
+        <option value="gemini">Близнецы</option>
+        <option value="cancer">Рак</option>
+        <option value="leo">Лев</option>
+        <option value="virgo">Дева</option>
+        <option value="libra">Весы</option>
+        <option value="scorpio">Скорпион</option>
+        <option value="sagittarius">Стрелец</option>
+        <option value="capricom">Козерог</option>
+        <option value="aquarius">Водолей</option>
+        <option value="pisces">Рыбы</option>
+    </select>
+    <p id="horoscope-text"></p>
 
     <script src="app.js"></script>
 </body>

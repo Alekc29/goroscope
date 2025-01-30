@@ -1,6 +1,6 @@
 // Интеграция с Telegram Web Apps
 Telegram.WebApp.ready();
-Telegram.WebApp.setHeaderColor("#6C5B7B"); // Цвет заголовка
+Telegram.WebApp.setHeaderColor("#63ef0c"); // Цвет заголовка
 Telegram.WebApp.setBackgroundColor("#F5F5F5"); // Цвет фона
 
 // Отображаем приветствие
@@ -43,11 +43,9 @@ zodiacSelect.addEventListener("change", updateHoroscope);
 // Инициализация текста при загрузке страницы
 updateHoroscope();
 
-// Интеграция с Telegram Web Apps
-Telegram.WebApp.ready();
-
 // Кнопка "Закрыть" (опционально)
 Telegram.WebApp.setHeaderColor("#6C5B7B"); // Цвет заголовка
+
 Telegram.WebApp.MainButton.setText("Закрыть").show().onClick(() => {
     Telegram.WebApp.close();
 });

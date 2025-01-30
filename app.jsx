@@ -44,7 +44,6 @@ zodiacSelect.addEventListener("change", updateHoroscope);
 updateHoroscope();
 
 // Кнопка "Закрыть" (опционально)
-Telegram.WebApp.setHeaderColor("#6C5B7B"); // Цвет заголовка
 
 Telegram.WebApp.MainButton.setText("Закрыть").show().onClick(() => {
     Telegram.WebApp.close();

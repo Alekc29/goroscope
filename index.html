@@ -1,55 +1,13 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <script src="https://telegram.org/js/telegram-web-app.js?56"></script>
-    <script>
-        Telegram.WebApp.expand();
-        miniApp.setHeaderColor('#fcb69f');
-    </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Гороскоп Mini App</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-        h1 {
-            color: #333;
-        }
-        select {
-            padding: 10px;
-            font-size: 16px;
-            margin-bottom: 20px;
-        }
-        p {
-            font-size: 18px;
-            color:  #333;
-        }
-    </style>
-</head>
-<body>
-    <h1>Гороскоп на сегодня</h1>
-    <label for="zodiac-sign">Выберите знак зодиака:</label>
-    <select id="zodiac-sign">
-        <option value="aries">Овен</option>
-        <option value="taurus">Телец</option>
-        <option value="gemini">Близнецы</option>
-        <option value="cancer">Рак</option>
-        <option value="leo">Лев</option>
-        <option value="virgo">Дева</option>
-        <option value="libra">Весы</option>
-        <option value="scorpio">Скорпион</option>
-        <option value="sagittarius">Стрелец</option>
-        <option value="capricom">Козерог</option>
-        <option value="aquarius">Водолей</option>
-        <option value="pisces">Рыбы</option>
-    </select>
-    <p id="horoscope-text"></p>
-
-    <script src="app.jsx"></script>
-    
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

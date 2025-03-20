@@ -1,0 +1,12 @@
+{
+  "name": "goroscope",
+  "version": "1.0.0",
+  "description": "Mini App Telegram для получения гороскопа",
+  "scripts": {
+    "start": "serve src"  
+  },
+  "dependencies": {
+    "serve": "^14.0.0"
+  },
+  "license": "MIT"
+}
